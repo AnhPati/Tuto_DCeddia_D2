@@ -1,0 +1,58 @@
+#mainContainer {
+  font-family: "Verdana";
+  background-color: #ebe46a;
+  padding: 2.5rem 5rem 2.5rem 5rem;
+  color: #0e66a5;
+  text-align: center;
+}
+
+.uBox-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgResponsive {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+}
+
+.titleStyles {
+  font-weight: 500;
+}
+
+.paragraphStyles {
+  font-size: 0.9rem;
+}
+
+.gate {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 17.5rem;
+  border-top: 1rem solid #4d1f10;
+  border-radius: 30px 30px 0 0;
+  border-left: 1rem solid #4d1f10;
+  border-right: 1rem solid #4d1f10;
+  border-bottom: 2rem solid #5c3225;
+  background-color: #5c3225;
+}
+
+.door {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.open {
+  background-image: radial-gradient(circle at center, #f34951, #ffdb98);
+}
+
+.closed {
+  background-image: repeating-linear-gradient(
+    to left,
+    #5c3225,
+    #4d1f10 5%,
+    #5c3225 0%
+  );
+}
